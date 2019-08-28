@@ -2,21 +2,23 @@
 <html>
     <head>
         <title>Jesse's CV</title>
+        <link rel="stylesheet" href="./styles.css" >
     </head>
     <body>
-         <header><h2>OKORO JESSE MADUABUCHI</h2></header>
+        <main id="container">
+             <header><h2>OKORO JESSE MADUABUCHI</h2></header>
 
-         <!--Contents on the right hand side of the page-->
-         <aside>
+            <!--Contents on the right hand side of the page-->
+            <aside>
 
-            <!--Sectoin for contact addresses-->
-            <address>
-                    <span>16, Ajani Kuti street, Oworonsoki, Lagos.</span></br>
-                    <span>08106243542 &#160; <strong>&#149;</strong> &#160; okorojesse@gmail.com</span>
-            </address> 
+                <!--Section for contact addresses-->
+                <address>
+                        <span>16, Ajani Kuti street, Oworonsoki, Lagos.</span></br>
+                        <span>08106243542 &#160; <strong>&#149;</strong> &#160; okorojesse@gmail.com</span>
+                </address>
             
             <!--Section for skills-->
-            <section id="skills">
+            <section class="box">
                 <h3 class="title-section">Skills</h3>
                 
                 <!--Section for core skils-->
@@ -51,10 +53,11 @@
             </section>
          </aside>
 
+         <div id="content">
          <!--Section for academic qualifications-->
-         <section>
+         <section class="box">
              <h3 class="title-section">Academic Qualifications</h3>
-             <div>
+             <div class="info">
                  <p>
                     <span class="institution"> Federal University of Technology, Owerri</span></br>
                     <span class="qualification">B. ENG (Agricultural Engineering)</span><br/>
@@ -69,9 +72,9 @@
          </section>
 
          <!--Section for working experiences-->
-         <section>
+         <section class="box">
              <h3 class="title-section">Work Experience</h3>
-             <div>
+             <div class="info">
 
                  <p>
                      <span class="institution">Manto Concepts, Owerri</span><br>
@@ -91,11 +94,12 @@
                      </ul>
 
                  </p>
-
-
              </div>
          </section>
-         <!--Image of the output-->
-         <img src="https://res.cloudinary.com/jesmanto/image/upload/v1566559135/full_page_alur1f.jpg" alt="Output">
+        </div>
+    </main>
+    <footer>
+        <p>Referees available on request</p>
+    </footer>
     </body>
 </html>

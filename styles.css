@@ -1,0 +1,15 @@
+/* *{font-size: 1.04em} */
+body,.container{max-width: 900px; margin:0 auto; background-color: black }
+#container{background-color: white; border: 1px solid none;border-radius: 5px;box-shadow: 1px 1px 2px 1px white;margin-top:2%;padding-bottom: 2%}
+aside{position: absolute;left: 50%;}
+div#content{max-width: 49%;}
+aside,#content{padding:0 2%}
+header{margin:0;text-align: center;font-size: larger; background-color: olivedrab;color: white;padding: 10px; border-radius: 5px 5px 0 0}
+section{max-width: 80%;}
+.box{border: 1px solid none;border-radius: 5px;box-shadow: 1px 1px 2px 1px black;margin: 1%;font-family: Georgia, 'Times New Roman', Times, serif}
+.title-section{background-color: olivedrab;padding:1%;color: white}
+.info,.sub{padding: 0 1% 1% 1%;}
+.institution{font-weight: bolder;}
+.qualification{font-weight: 500;}
+address{font-style: oblique;color: red;text-underline-position: below;font-weight: 600;font-size: 25x}
+footer{position: static;font-size: 1.05em;bottom: 0%;text-align: center;background-color: olivedrab;color: white;font-weight: 600;font-family: Verdana, Geneva, Tahoma, sans-serif}
