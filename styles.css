@@ -13,3 +13,6 @@ section{max-width: 80%;}
 .qualification{font-weight: 500;}
 address{font-style: oblique;color: red;text-underline-position: below;font-weight: 600;font-size: 25x}
 footer{position: static;font-size: 1.05em;bottom: 0%;text-align: center;background-color: olivedrab;color: white;font-weight: 600;font-family: Verdana, Geneva, Tahoma, sans-serif}
+.redir{
+    background-color: darkorange;
+}
