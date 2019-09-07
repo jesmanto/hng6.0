@@ -1,5 +1,5 @@
 /* *{font-size: 1.04em} */
-body,.container{max-width: 900px; margin:0 auto; background-color: black }
+body,#container{max-width: 900px; margin:0 auto; background-color: black }
 #container{background-color: white; border: 1px solid none;border-radius: 5px;box-shadow: 1px 1px 2px 1px white;margin-top:2%;padding-bottom: 2%}
 aside{position: absolute;left: 50%;}
 div#content{max-width: 49%;}
@@ -15,4 +15,20 @@ address{font-style: oblique;color: red;text-underline-position: below;font-weigh
 footer{position: static;font-size: 1.05em;bottom: 0%;text-align: center;background-color: olivedrab;color: white;font-weight: 600;font-family: Verdana, Geneva, Tahoma, sans-serif}
 .redir{
     background-color: darkorange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.redir a:link{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:500px){
+    aside{position: relative;left: 0%;}
+    div#content{max-width: 100%;}
+    #container{padding: 0% auto;}
+    section{max-width: 100%;}
 }
